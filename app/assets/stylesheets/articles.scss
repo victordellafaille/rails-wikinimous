@@ -1,0 +1,41 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1 {
+  text-align: center;
+  color: royalblue;
+}
+
+ul {
+  text-align: center;
+  padding-left: 0px;
+}
+
+
+li {
+  margin-bottom: 80px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: royalblue;
+  color: white;
+  margin: 5px 8px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.joke {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+<h1> <%= link_to "Create a new Dad's joke", new_article_path %></h1>
+
+<ul>
+  <% @articles.each do |article| %>
+    <div class= "joke">
+      <h3> <%= article.title %></h3>
+      <h5> <%= article.content %></h5>
+      <li><%= link_to "more options", article_path(article) %> or
+      <%= link_to "delete this joke", article_path(article), method: :delete, data: {confirm: "Are you sure?"} %> </li>
+    </div>
+  <% end %>
+</ul>
